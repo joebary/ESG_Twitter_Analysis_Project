@@ -11,6 +11,10 @@ Through our streamlit application, we also included a tab that allows for a cust
 
 
 ## Portfolio Analysis
+
+
+For the portfolio analysis, we created test dataframes to replicate the Twitter data. Tickers were chosen at random from the ESG data and Sentiment values were also chosen at random. The sentiment weights were used to determine each individual equity's weights. 
+
 <img width="159" alt="test2" src="https://user-images.githubusercontent.com/86026996/144332190-e40233fa-a097-46d8-8f7b-2b21d2a5e7a2.png">
 <img width="147" alt="test1" src="https://user-images.githubusercontent.com/86026996/144332195-72a788e0-81dc-4044-b160-451d58987fa2.png">
 
