@@ -110,4 +110,3 @@ Streamlit, an open-source python framework, was used for the front-end of the pr
 
 ![](Images/portfolio_annual_return.png)
 ***Image 6: Portfolio Annual Return, SD and Sharpe Ratio from Selected Ticker***
-
