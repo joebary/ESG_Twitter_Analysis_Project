@@ -1,7 +1,8 @@
-# Project_3_Team_1
+## Project_3_Team_1
 The overall idea for this project is to create an online interactive portfolio. In addition, we will take in information from Twitter and other forms of media to understand how to format our sharpe, calmar, sortino, treynor ratios for market evaluations. Once we have the analysis, we will determine what daily return information we can get based on the standard deviation and other financial metrics. One feature we will try to incorporate for this project is to use federal and state taxes to provide a recommendation for how much a person should invest in fixed income (corporate bond vs municipal bond) based on their age and financial background. 
 
-Research Questions:
+
+## **Research Questions:**
 
 1. How will we filter certain keywords from Twitter/Reddit?
 2. What relevant financial information (i.e, income, capital gains, etc.) would we need to incorporate in the tax portion of the code? Note: this is also important to ensure a person is eligible to invest.
