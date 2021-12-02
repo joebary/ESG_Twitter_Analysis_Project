@@ -1,6 +1,13 @@
 # Project_3_Team_1
 The overall idea for this project is to create an online interactive portfolio. In addition, we will take in information from Twitter and other forms of media to understand how to format our sharpe, calmar, sortino, treynor ratios for market evaluations. Once we have the analysis, we will determine what daily return information we can get based on the standard deviation and other financial metrics. One feature we will try to incorporate for this project is to use federal and state taxes to provide a recommendation for how much a person should invest in fixed income (corporate bond vs municipal bond) based on their age and financial background. 
 
+Research Questions:
+
+1. How will we filter certain keywords from Twitter/Reddit?
+2. What relevant financial information (i.e, income, capital gains, etc.) would we need to incorporate in the tax portion of the code? Note: this is also important to ensure a person is eligible to invest.
+3. How can we create an ESG metric as an additional feature to give investors the option whether they want to invest in a certain company? 
+
+
 ESG Data:
 
 Environmental, social, and governance scores are newly yet very quickly becoming essential factors in investing. Therefore, our group decided to include each company in the s&p 500s ESG scores in our portfolio analysis and allocation. We were able to do this through our python function that retrieves this data seven years back (2014-2021) and with a monthly frequency. Specifically, we were able to get our data through our historical ESG functions call to yahoo finance - under the sustainability tab.
