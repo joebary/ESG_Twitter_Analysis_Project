@@ -96,17 +96,17 @@ Streamlit, an open-source python framework, was used for the front-end of the pr
 ![](Images/front_page.PNG)
 ***Image 1: Front Page***
 
-![](Images/breakdown_of_portfolio.png)
+![](Images/breakdown_of_portfolio.PNG)
 ***Image 2: Breakdown of Portfolio***
 
-![](Images/portfolio_plot.png)
+![](Images/portfolio_plot.PNG)
 ***Image 3: Portfolio Plot***
 
-![](Images/sentiment_analysis_model.png)
+![](Images/sentiment_analysis_model.PNG)
 ***Image 4: Sentiment Analysis Model***
 
-![](Images/pie_chart_SAM.png)
+![](Images/pie_chart_SAM.PNG)
 ***Image 5: Pie Chart and Data from Selected Ticker***
 
-![](Images/portfolio_annual_return.png)
+![](Images/portfolio_annual_return.PNG)
 ***Image 6: Portfolio Annual Return, SD and Sharpe Ratio from Selected Ticker***
