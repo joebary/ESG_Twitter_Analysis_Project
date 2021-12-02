@@ -17,16 +17,19 @@ For the portfolio analysis, we created test dataframes to replicate the Twitter 
 
 <img width="159" alt="test2" src="https://user-images.githubusercontent.com/86026996/144332190-e40233fa-a097-46d8-8f7b-2b21d2a5e7a2.png">
 
-Using indexing, the dataframe will dynamically respond to changes from the incoming Twitter dataframe. Individual stock information came from Yahoo Finance. 
-
 <img width="147" alt="test1" src="https://user-images.githubusercontent.com/86026996/144332195-72a788e0-81dc-4044-b160-451d58987fa2.png">
+
+Using indexing, the dataframe will dynamically respond to changes from the incoming Twitter dataframe. Individual stock information came from Yahoo Finance. We used it to calcualted the each equity's annual return, standard deviation and Sharpe ratio. Based on the weights of the five equity portfolio, we then calcuated the portfolio metrics. 
 
 
 <img width="510" alt="Portfolio_Metrics" src="https://user-images.githubusercontent.com/86026996/144332206-f5ec6595-6674-429f-8ce3-39893e94785e.png">
 
+The dataframe with the ESG data contains data on hundreds of different tickers. We created new ESG dataframes for each equity by capturing rows than contain their ticker.  
+
 <img width="482" alt="ESG_slicer" src="https://user-images.githubusercontent.com/86026996/144332211-97d39dc4-5310-494f-8d31-da475a1470eb.png">
 <img width="411" alt="ESG_sliced" src="https://user-images.githubusercontent.com/86026996/144332215-12b71ee2-a89a-49da-bf3a-712f16e1fbd8.png">
 
+After adding all of the Total ESG Scores for each equity in df_portfolio, we were able to calculated the portfolio's Total ESG Score. 
 <img width="558" alt="ESG_metrics" src="https://user-images.githubusercontent.com/86026996/144332219-18f1f6eb-e91b-4b71-95fc-ca5e915d0925.png">
 
 
