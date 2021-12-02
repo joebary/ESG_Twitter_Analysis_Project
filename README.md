@@ -93,7 +93,7 @@ Visualize the top ten tickers in All tweets, postive tweets, negative tweets, ne
 
 Streamlit, an open-source python framework, was used for the front-end of the project. By importing files from the other team members, information such as the ESG Scores, the sentiment scores, sharpe ratios for market evaluation, and the annual return for the portfolio was implemented.
 
-![](Images/front_page.png)
+![](Images/front_page.PNG)
 ***Image 1: Front Page***
 
 ![](Images/breakdown_of_portfolio.png)
