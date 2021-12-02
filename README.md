@@ -20,6 +20,13 @@ The overall idea for this project is to create an online interactive portfolio. 
 <img width="558" alt="ESG_metrics" src="https://user-images.githubusercontent.com/86026996/144332219-18f1f6eb-e91b-4b71-95fc-ca5e915d0925.png">
 
 
+ESG Data:
+
+Environmental, social, and governance scores are newly yet very quickly becoming essential factors in investing. Therefore, our group decided to include each company in the s&p 500s ESG scores in our portfolio analysis and allocation. We were able to do this through our python function that retrieves this data seven years back (2014-2021) and with a monthly frequency. Specifically, we were able to get our data through our historical ESG functions call to yahoo finance - under the sustainability tab.
+
+Customized Bond Recommendation:
+
+Through our streamlit application, we also included a tab that allows for a customized bond recommendation. It first asks a user to input their income. From that income amount, we know what their federal income tax rate is. It can be the case that an investor will make more from investing in a municipal bond that is tax-exempt versus a treasury or corporate bond that is not tax-exempt, as he or she may be a high net worth individual. Therefore, this person could be taxed more heavily on those coupon payments from treasury or corporate bonds so it is helpful to know which bond could be more profitable. As a result, we use an equation called the tax equivalent yield to calculate the differing bond types comparable yields. Depending on which yield is highest, we recommend that type of bond to the user. We also indicate what they can expect their average yield to be, their portfolio weights, and portfolio returns. Depending on the users age input, the younger they are the greater the portfolio weight goes towards fixed income since it could be more long term. Correspondingly, the older the user the more their portfolio weight goes towards equities. Note: all of this data on the yields and types of bonds we retrieved from Bloomberg terminal.
 
 
 
