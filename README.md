@@ -1,4 +1,13 @@
 ## Project_3_Team_1
+
+## **Group 1:**
+
+David Ingraham<br/>
+Donna Salinas<br/>
+Edward Foote<br/>
+Gabby Giordano<br/>
+Youssef Said<br/>
+
 The overall idea for this project is to create an online interactive portfolio. In addition, we will take in information from Twitter and other forms of media to understand how to format our sharpe, calmar, sortino, treynor ratios for market evaluations. Once we have the analysis, we will determine what daily return information we can get based on the standard deviation and other financial metrics. One feature we will try to incorporate for this project is to use federal and state taxes to provide a recommendation for how much a person should invest in fixed income (corporate bond vs municipal bond) based on their age and financial background. 
 
 
@@ -80,11 +89,25 @@ Visualize the top ten tickers in All tweets, postive tweets, negative tweets, ne
 ![Screen Shot 2021-12-01 at 7 41 57 PM](https://user-images.githubusercontent.com/64050486/144336994-1b5fe2cb-44d7-4a6c-b84f-f38ae7b6b77e.png)
 
 
+## **Streamlit:**
 
-Team 1 members:
+Streamlit, an open-source python framework, was used for the front-end of the project. By importing files from the other team members, information such as the ESG Scores, the sentiment scores, sharpe ratios for market evaluation, and the annual return for the portfolio was implemented.
 
-David Ingraham
-Donna Salinas
-Edward Foote
-Gabby Giordano
-Youssef Said
+![](Images/front_page.png)
+***Image 1: Front Page***
+
+![](Images/breakdown_of_portfolio.png)
+***Image 2: Breakdown of Portfolio***
+
+![](Images/portfolio_plot.png)
+***Image 3: Portfolio Plot***
+
+![](Images/sentiment_analysis_model.png)
+***Image 4: Sentiment Analysis Model***
+
+![](Images/pie_chart_SAM.png)
+***Image 5: Pie Chart and Data from Selected Ticker***
+
+![](Images/portfolio_annual_return.png)
+***Image 6: Portfolio Annual Return, SD and Sharpe Ratio from Selected Ticker***
+
