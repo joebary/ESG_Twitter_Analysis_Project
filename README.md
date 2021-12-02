@@ -32,7 +32,44 @@ The dataframe with the ESG data contains data on hundreds of different tickers. 
 After adding all of the Total ESG Scores for each equity in df_portfolio, we were able to calculated the portfolio's Total ESG Score. 
 <img width="558" alt="ESG_metrics" src="https://user-images.githubusercontent.com/86026996/144332219-18f1f6eb-e91b-4b71-95fc-ca5e915d0925.png">
 
+## Twitter Analysis:
+Markdown
 
+1- Authentication.
+2- Get CSV file with the top tickers from S&P500.
+3- Get unique tickers in order for us to search tweets that relate to them on twitter.
+4- Download the tweets that have those tickers.
+5- Create a model that can classify those tweets into Positive/Negative.
+6- Use the model to classify the downloaded tweets
+7- get only the positive tweets.
+8- Analysis.
+
+![Screen Shot 2021-12-01 at 7 35 00 PM](https://user-images.githubusercontent.com/64050486/144336403-f38e166c-8305-4b66-8ef8-19f2bcd86c81.png)
+After some problems with Twitter Keys and secret keys related to some changes in Twitter security policy. According to the situation we start to use this website these are the top ten ESG stocks on the market right now.
+
+https://www.investors.com/news/esg-companies-list-best-esg-stocks-environmental-social-governance-values/
+
+![Screen Shot 2021-12-01 at 7 38 00 PM](https://user-images.githubusercontent.com/64050486/144336681-192e2321-4e7d-4b1a-a7ef-81b4b5bf61b3.png)
+
+## Fetching Tweets by Keyword
+first get the amount to search per keyword
+
+![Screen Shot 2021-12-01 at 7 39 21 PM](https://user-images.githubusercontent.com/64050486/144336776-e2957aa3-1982-4e1b-a0b9-694d18fba009.png)
+
+## Query twitter.
+
+In order to search for tweets we must specify the parameters.
+
+Language is set to english.
+start date and end date is set to 2021-10-01, 2021-12-01
+the amount of tweets per keyword is 240.
+the inner for loop just gets the corresponding ticker name, so we dont lose track of which tweet is talking about which ticker.
+![Screen Shot 2021-12-01 at 7 40 16 PM](https://user-images.githubusercontent.com/64050486/144336862-61666984-8540-43e8-8d0d-d7d6ad84f9f3.png)
+
+Creating dataframes to plot and review.
+![Screen Shot 2021-12-01 at 7 41 11 PM](https://user-images.githubusercontent.com/64050486/144336923-0558db21-d50a-4d9c-bf3b-f77b50152c7c.png)
+Visualize the top ten tickers in All tweets, postive tweets, negative tweets, neutral tweets.
+![Screen Shot 2021-12-01 at 7 41 57 PM](https://user-images.githubusercontent.com/64050486/144336994-1b5fe2cb-44d7-4a6c-b84f-f38ae7b6b77e.png)
 
 
 
