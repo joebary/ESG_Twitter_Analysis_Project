@@ -18,10 +18,8 @@ For the portfolio analysis, we created test dataframes to replicate the Twitter 
 <img width="159" alt="test2" src="https://user-images.githubusercontent.com/86026996/144332190-e40233fa-a097-46d8-8f7b-2b21d2a5e7a2.png">
 
 Using indexing, the dataframe will dynamically respond to changes from the incoming Twitter dataframe. Individual stock information came from Yahoo Finance. 
+
 <img width="147" alt="test1" src="https://user-images.githubusercontent.com/86026996/144332195-72a788e0-81dc-4044-b160-451d58987fa2.png">
-
-<img width="510" alt="Portfolio_Metrics" src="https://user-images.githubusercontent.com/86026996/144332182-00d5bc52-964e-473b-9f27-22a111b81385.png">
-
 
 
 <img width="510" alt="Portfolio_Metrics" src="https://user-images.githubusercontent.com/86026996/144332206-f5ec6595-6674-429f-8ce3-39893e94785e.png">
